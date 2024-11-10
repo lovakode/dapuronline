@@ -1,0 +1,64 @@
+
+$color-primary :              #3B59F7;
+
+
+$body-bg:                      var(--tw-body-bg);
+$body-color:                   var(--tw-body-color);
+$body-font-family:             var(--tw-body-font-family);
+
+
+// Sidebar
+$sidebar-bg:                   var(--tw-sidebar-bg);
+$sidebar-width:                300px !default;
+$sidebar-mini-width:           80px !default;
+$sidebar-mini-nav-width:       46px !default;
+$side-overlay-width:           320px !default;
+$side-transition:              .26s cubic-bezier(0.470, 0.000, 0.745, 0.715) !default;
+
+$menu-item-color:              var(--tw-menu-item-color);
+$menu-item-active-bg:          var(--tw-menu-item-active-bg);
+$menu-item-active-color:       var(--tw-menu-item-active-color);
+$menu-item-hover-bg:           var(--tw-menu-item-hover-bg);
+$menu-item-hover-color:        var(--tw-menu-item-hover-color);
+
+$menu-item-padding-x:          var(--tw-menu-item-padding-x);
+$menu-item-gap:                var(--tw-menu-item-gap);
+
+$menu-link-padding-y:          var(--tw-menu-link-padding-y);
+$menu-link-padding-x:          var(--tw-menu-link-padding-x);
+
+$menu-link-item-gap:           var(--tw-menu-link-item-gap);
+
+$menu-item-icon-size:          var(--tw-menu-item-icon-size);
+$menu-item-font-size:          var(--tw-menu-item-font-size);
+
+
+// Header
+$header-height:                var(--tw-header-height);
+
+$header-bg:                    var(--tw-header-bg);
+$header-item-color:            var(--tw-header-item-color);
+$header-item-active-bg:        var(--tw-header-item-active-bg);
+$header-item-active-color:     var(--tw-header-item-active-color);
+$header-item-hover-bg:         var(--tw-header-item-hover-bg);
+$header-item-hover-color:      var(--tw-header-item-hover-color);
+
+
+// Z-index master list additions
+$zindex-fixed:              1000;
+$zindex-block-pinned:       $zindex-fixed + 1 !default;
+$zindex-sidebar:            $zindex-fixed + 2 !default;
+$zindex-page-overlay:       $zindex-fixed + 3 !default;
+$zindex-side-overlay:       $zindex-fixed + 4 !default;
+$zindex-block-fullscreen:   $zindex-fixed + 5 !default;
+
+
+// Space Layout
+$space-base:                1.75rem !default;                    // Content padding
+$space-mobile:              .875rem !default;                    // Content padding in mobile
+$space-side:                1.5rem !default;                   // Content padding in side sections
+$space-row-gutter-tiny:     .375rem !default;                   // Row with tiny gutter, even number: 2, 4, 6.. etc
+$space-block:               1.625rem !default;                    // Block padding
+$space-boxed:               1260px !default;                    // Boxed content max width
+$space-narrow:              92% !default;                       // Narrow content max width
+$space-main-max-width:      1920px !default;  

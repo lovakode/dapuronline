@@ -1,0 +1,16 @@
+.el-input{
+
+    > .el-input__wrapper {
+        padding: 5px 16px  !important;
+        border-radius: 500px !important;
+    }
+}
+
+.el-date-editor{
+    border-radius: 500px !important;
+
+    &:not(.el-date-editor--month){       
+        height: 40px  !important;
+        padding: 5px 16px  !important;
+    }
+}
